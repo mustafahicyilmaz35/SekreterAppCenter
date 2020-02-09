@@ -27,7 +27,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Sekreter</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.modernassist.Sekreter</string>
+	<string>org.modernassist.SekreterAppCenter</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>CFBundleIconFiles</key>

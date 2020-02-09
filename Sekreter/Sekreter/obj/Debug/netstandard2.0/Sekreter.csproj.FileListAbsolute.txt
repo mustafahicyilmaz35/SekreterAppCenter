@@ -1,0 +1,16 @@
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\bin\Debug\netstandard2.0\Sekreter.deps.json
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\bin\Debug\netstandard2.0\Sekreter.dll
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\bin\Debug\netstandard2.0\Sekreter.pdb
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\obj\Debug\netstandard2.0\Sekreter.csprojAssemblyReference.cache
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\obj\Debug\netstandard2.0\Views\CallPage.xaml.g.cs
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\obj\Debug\netstandard2.0\Views\ContactPage.xaml.g.cs
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\obj\Debug\netstandard2.0\Views\OutlookPage.xaml.g.cs
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\obj\Debug\netstandard2.0\Views\SmsPage.xaml.g.cs
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\obj\Debug\netstandard2.0\Views\WhatsAppPage.xaml.g.cs
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\obj\Debug\netstandard2.0\Sekreter.AssemblyInfoInputs.cache
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\obj\Debug\netstandard2.0\Sekreter.AssemblyInfo.cs
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\obj\Debug\netstandard2.0\Sekreter.dll
+C:\Users\musta\Desktop\SekreterAppCenter\Sekreter\Sekreter\obj\Debug\netstandard2.0\Sekreter.pdb
