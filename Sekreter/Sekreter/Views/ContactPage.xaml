@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             xmlns:mvvm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             mvvm:ViewModelLocator.AutowireViewModel="True"
+             x:Class="Sekreter.Views.ContactPage">
+
+
+        <StackLayout>
+            <SearchBar x:Name="SearchBar" TextChanged="SearchBar_OnTextChanged"/>
+            <ListView x:Name="ListView" ItemsSource="{Binding GroupedContact}" IsGroupingEnabled="True" GroupDisplayBinding="{Binding Key}" GroupShortNameBinding="{Binding Key}" HasUnevenRows="True" SelectedItem="{Binding SelectedContact,Mode=TwoWay}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                            <Label Text="{Binding Name}"/>
+                            <Label Text="{Binding Number}"/>
+                            <Label Text="{Binding Email}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+  
+</ContentPage>

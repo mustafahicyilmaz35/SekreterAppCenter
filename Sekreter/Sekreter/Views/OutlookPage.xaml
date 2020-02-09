@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             xmlns:mvvm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             mvvm:ViewModelLocator.AutowireViewModel="True"
+             x:Class="Sekreter.Views.OutlookPage">
+        
+        <StackLayout>
+            <Label Text="To"/>
+            <Label Text="{Binding SelectedContact.Email}"/>
+            <Label Text="Cc"/>
+            <Entry Text="{Binding Cc,Mode=TwoWay}"/>
+            <Label Text="Konu"/>
+            <Entry Text="{Binding Subject,Mode=TwoWay}"/>
+            <Label Text="Mesaj"/>
+            <Entry Placeholder="Mesajı bu alana yazın" Text="{Binding Message,Mode=TwoWay}"/>
+        <Button Text="Gönder" Command="{Binding MailCommand}"/>
+        <Button Text="İptal" Command="{Binding GoBackCommand}"/>
+        </StackLayout>
+  
+</ContentPage>

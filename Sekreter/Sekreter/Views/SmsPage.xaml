@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             xmlns:mvvm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             mvvm:ViewModelLocator.AutowireViewModel="True"
+             x:Class="Sekreter.Views.SmsPage">
+    <StackLayout>
+        <Label Text="İsim"/>
+        <Label Text="{Binding SelectedContact.Name}"/>
+        <Label Text="Numara"/>
+        <Label Text="{Binding SelectedContact.Number}"/>
+        <Entry Placeholder="Mesajı buraya yazın" Text="{Binding SmsText,Mode=TwoWay}"/>
+        <Button Text="Gönder" Command="{Binding SmsCommand}"/>
+        <Button Text="İptal" Command="{Binding GoBackCommand}"/>
+    </StackLayout>
+  
+</ContentPage>
